@@ -1,4 +1,45 @@
 <!DOCTYPE html>
-<html>
 
+<html lang="uk">
+<head>
+    <title>Список справ - Планер-порадник</title>
+</head>
+<body>
+    <header>
+        <h1>Планер-порадник</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="notes.html">Нотатки</a></li>
+                <li><a href="tasks.html">Список справ</a></li>
+                <li><a href="mood.html">Настрій</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Список справ</h2>
+            <form action="#" method="post">
+                <label for="task-name">Назва завдання:</label>
+                <input type="text" id="task-name" name="task-name">
+                
+                <label for="task-date">Дата виконання:</label>
+                <input type="date" id="task-date" name="task-date">
+                
+                <label for="task-priority">Важливість:</label>
+                <select id="task-priority" name="task-priority">
+                    <option value="low">Низька</option>
+                    <option value="medium">Середня</option>
+                    <option value="high">Висока</option>
+                </select>
+                
+                <input type="submit" value="Додати завдання">
+            </form>
+            <h3>Ваші завдання</h3>
+            <ol>
+                <li>Перше завдання</li>
+            </ol>
+        </section>
+    </main>
+</body>
 </html>
