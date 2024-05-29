@@ -1,1 +1,50 @@
 <!DOCTYPE html>
+
+<html lang="uk">
+<head>
+    <title>Нотатки - Планер-порадник</title>
+</head>
+<body>
+    <header>
+        <h1>Планер-порадник</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="notes.html">Нотатки</a></li>
+                <li><a href="tasks.html">Список справ</a></li>
+                <li><a href="mood.html">Настрій</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Нотатки</h2>
+            <form action="#" method="post">
+                <label for="note-date">Дата:</label>
+                <input type="date" id="note-date" name="note-date">
+                
+                <label for="note-content">Нотатка:</label>
+                <textarea id="note-content" name="note-content"></textarea>
+                
+                <input type="submit" value="Додати нотатку">
+            </form>
+            <h3>Ваші нотатки</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Дата</th>
+                        <th>Нотатка</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-05-29</td>
+                        <td>Приклад нотатки</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>
