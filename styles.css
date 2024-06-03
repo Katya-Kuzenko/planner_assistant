@@ -1,0 +1,152 @@
+/* Скидання стилів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Форма */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #555;
+}
+
+/* Таблиця */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background: #f4f4f4;
+}
+
+/* Списки */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+/* Плаваючі елементи */
+.header-image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.map-image {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.float-clear {
+    clear: both;
+}
+
+/* Селектори */
+#unique-element {
+    color: red;
+}
+
+.class-element {
+    font-style: italic;
+}
+
+a:hover {
+    color: blue;
+}
+
+input[type="text"]:focus {
+    border-color: blue;
+}
+
+[attr="example"] {
+    color: green;
+}
+
+.header, .main, .footer {
+    display: block;
+}
+
+/* Комбінатори */
+nav ul li:first-child a {
+    border-bottom: 2px solid red;
+}

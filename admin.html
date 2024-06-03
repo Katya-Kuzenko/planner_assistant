@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Адміністративна панель - Планер-порадник</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Планер-порадник</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="notes.html">Нотатки</a></li>
+                <li><a href="tasks.html">Список справ</a></li>
+                <li><a href="mood.html">Настрій</a></li>
+                <li><a href="admin.html">Адміністративна панель</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Керування користувачами</h2>
+            <h3>Список користувачів</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ім'я користувача</th>
+                        <th>Роль</th>
+                        <th>Дії</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>user1</td>
+                        <td>Користувач</td>
+                        <td><button class="delete-button">Видалити</button></td>
+                    </tr>
+                    <tr>
+                        <td>admin1</td>
+                        <td>Адміністратор</td>
+                        <td><button class="delete-button">Видалити</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Керування контентом</h2>
+            <form action="#" method="post">
+                <label for="article-title">Назва статті:</label>
+                <input type="text" id="article-title" name="article-title">
+                
+                <label for="article-content">Зміст статті:</label>
+                <textarea id="article-content" name="article-content"></textarea>
+                
+                <input type="submit" value="Додати статтю">
+            </form>
+            <h3>Додані статті</h3>
+            <ul>
+                <li>Приклад статті</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
