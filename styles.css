@@ -102,34 +102,19 @@ ul, ol {
     padding-left: 20px;
 }
 
-/* Плаваючі елементи */
-.header-image {
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-}
-
-.map-image {
-    float: right;
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-}
-
-.float-clear {
-    clear: both;
-}
 
 /* Селектори */
+/* Селектор ідентифікатора */
 #unique-element {
     color: red;
 }
 
+/* Селектор класу */
 .class-element {
     font-style: italic;
 }
 
+/* Псевдоклас */
 a:hover {
     color: blue;
 }
@@ -138,6 +123,7 @@ input[type="text"]:focus {
     border-color: blue;
 }
 
+/* Селектор із атрибутом */
 [attr="example"] {
     color: green;
 }
