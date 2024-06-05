@@ -11,6 +11,15 @@ body {
     line-height: 1.6;
 }
 
+body.night-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.night-mode a {
+    color: #bb86fc;
+}
+
 header {
     background: #333;
     color: #fff;
